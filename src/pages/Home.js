@@ -1,11 +1,11 @@
 import React from 'react'
 
-function APropos() {
+function Home() {
     return (
         <div>
-            APropos
+            Home
         </div>
     )
 }
 
-export default APropos
+export default Home
