@@ -3,18 +3,18 @@ import React from 'react'
 function HomeFeatures() {
     return (
         <div>
-              <section className="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">
+              <section className="mt-15 md:mt-40 pb-40 relative bg-blueGray-100">
        
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center">
-            <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto ">
+            <div className="w-10/12 md:w-6/12 lg:w-4/12 px-4 6 md:px-4 mr-auto ml-auto ">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
                 <img
                   alt="..."
                   src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
                   className="w-full align-middle rounded-t-lg"
                 />
-                <blockquote className="relative p-8 mb-4">
+                <blockquote className="relative p-4 mb-4">
                   <svg
                     preserveAspectRatio="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -26,9 +26,7 @@ function HomeFeatures() {
                   <h4 className="text-xl font-bold text-neutral">
                   Pourquoi nous choisir ?
                   </h4>
-                  <p className="text-md font-light mt-2 text-gray-500">
-                  Notre philosophie, nos valeurs et nos expertises dans le domaine du digital vous offrent notre compréhension en même temps que notre capacité à imaginer les meilleurs moyens pour développer votre productivité, votre activité en ligne, votre visibilité sur le web et donc votre chiffre d’affaires
-                  </p>
+                
                 </blockquote>
               </div>
             </div>
